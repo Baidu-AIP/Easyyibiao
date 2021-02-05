@@ -11,11 +11,13 @@
 使用Python启动该项目
 ```bash
 # 1. 安装Python，建议安装Python3.6，安装方式可参考官网：
-`https://www.python.org/downloads/`
-# 2. 根据`requirements.txt`安装环境依赖
-cd Easyyibiao
+https://www.python.org/downloads/
+# 2. 下载项目(如果直接下载ZIP压缩包，则文件夹名为Easyyibiao-main，第3步改为cd Easyyibiao-main即可)
+git clone https://github.com/Baidu-AIP/Easyyibiao.git
+# 3. 根据`requirements.txt`安装环境依赖
+cd Easyyibiao  
 pip3 install -r requirements.txt
-# 3. 启动项目
+# 4. 启动项目
 python3 main.py
 ```
 
@@ -30,6 +32,8 @@ tar -zxvf Easyyibiao.tar.gz
 # 3. 启动项目
 双击Easyyibiao目录下main文件即可运行
 ```
+
+注： Mac不同版本系统会有不兼容问题，故Mac系统推荐Python启动方式
 #### Windows
 ```bash
 # 1. 下载Windows版本压缩包
